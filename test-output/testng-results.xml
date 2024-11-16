@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-19T20:25:26 IST" name="Suite" finished-at="2024-10-19T20:25:59 IST" duration-ms="32096">
+    <groups>
+      <group name="Purchase">
+        <method signature="StandAloneTest_4.submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumFramework.tests.StandAloneTest_4@618b19ad]" name="submitOrder" class="SeleniumFramework.tests.StandAloneTest_4"/>
+      </group> <!-- Purchase -->
+      <group name="Errorhandling">
+        <method signature="ErrorValidation.checkLoginCreds()[pri:0, instance:SeleniumFramework.tests.ErrorValidation@37afeb11]" name="checkLoginCreds" class="SeleniumFramework.tests.ErrorValidation"/>
+      </group> <!-- Errorhandling -->
+    </groups>
+    <test started-at="2024-10-19T20:25:26 IST" name="Check login credentials and desired product is added in item test" finished-at="2024-10-19T20:25:45 IST" duration-ms="18455">
+      <class name="SeleniumFramework.tests.ErrorValidation">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.tests.ErrorValidation@37afeb11]" started-at="2024-10-19T20:25:27 IST" name="launchApplication" finished-at="2024-10-19T20:25:34 IST" duration-ms="7914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkDesiredProduct()[pri:0, instance:SeleniumFramework.tests.ErrorValidation@37afeb11]" started-at="2024-10-19T20:25:34 IST" name="checkDesiredProduct" finished-at="2024-10-19T20:25:38 IST" duration-ms="3731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDesiredProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFramework.tests.ErrorValidation@37afeb11]" started-at="2024-10-19T20:25:38 IST" name="tearDown" finished-at="2024-10-19T20:25:39 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.tests.ErrorValidation@37afeb11]" started-at="2024-10-19T20:25:39 IST" name="launchApplication" finished-at="2024-10-19T20:25:44 IST" duration-ms="5072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkLoginCreds()[pri:0, instance:SeleniumFramework.tests.ErrorValidation@37afeb11]" started-at="2024-10-19T20:25:44 IST" name="checkLoginCreds" finished-at="2024-10-19T20:25:45 IST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLoginCreds -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFramework.tests.ErrorValidation@37afeb11]" started-at="2024-10-19T20:25:45 IST" name="tearDown" finished-at="2024-10-19T20:25:45 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumFramework.tests.ErrorValidation -->
+    </test> <!-- Check login credentials and desired product is added in item test -->
+    <test started-at="2024-10-19T20:25:26 IST" name="Submit order test" finished-at="2024-10-19T20:25:59 IST" duration-ms="32096">
+      <class name="SeleniumFramework.tests.StandAloneTest_4">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.tests.StandAloneTest_4@618b19ad]" started-at="2024-10-19T20:25:27 IST" name="launchApplication" finished-at="2024-10-19T20:25:34 IST" duration-ms="7747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumFramework.tests.StandAloneTest_4@618b19ad]" started-at="2024-10-19T20:25:34 IST" name="submitOrder" data-provider="getData" finished-at="2024-10-19T20:25:41 IST" duration-ms="6329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thakorgopu725@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thakor1!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ZARA COAT 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFramework.tests.StandAloneTest_4@618b19ad]" started-at="2024-10-19T20:25:41 IST" name="tearDown" finished-at="2024-10-19T20:25:41 IST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.tests.StandAloneTest_4@618b19ad]" started-at="2024-10-19T20:25:41 IST" name="launchApplication" finished-at="2024-10-19T20:25:46 IST" duration-ms="4879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:SeleniumFramework.tests.StandAloneTest_4@618b19ad]" started-at="2024-10-19T20:25:46 IST" name="submitOrder" data-provider="getData" finished-at="2024-10-19T20:25:51 IST" duration-ms="4795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thakorgopu726@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thakor1!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ADIDAS ORIGINAL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFramework.tests.StandAloneTest_4@618b19ad]" started-at="2024-10-19T20:25:51 IST" name="tearDown" finished-at="2024-10-19T20:25:51 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:SeleniumFramework.tests.StandAloneTest_4@618b19ad]" started-at="2024-10-19T20:25:51 IST" name="launchApplication" finished-at="2024-10-19T20:25:57 IST" duration-ms="5928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryCheck()[pri:0, instance:SeleniumFramework.tests.StandAloneTest_4@618b19ad]" started-at="2024-10-19T20:25:57 IST" name="orderHistoryCheck" finished-at="2024-10-19T20:25:58 IST" depends-on-methods="SeleniumFramework.tests.StandAloneTest_4.submitOrder" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SeleniumFramework.tests.StandAloneTest_4@618b19ad]" started-at="2024-10-19T20:25:58 IST" name="tearDown" finished-at="2024-10-19T20:25:59 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SeleniumFramework.tests.StandAloneTest_4 -->
+    </test> <!-- Submit order test -->
+  </suite> <!-- Suite -->
+</testng-results>
