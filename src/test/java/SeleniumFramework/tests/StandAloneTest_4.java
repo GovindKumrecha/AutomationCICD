@@ -51,7 +51,7 @@ public class StandAloneTest_4 extends BaseTest{
 		 OrderPage orderpage =  productCatalog.goToOrder();
 		 Assert.assertTrue(orderpage.verifyOrderedDisplay(productName));
 	}
-	
+	//This is my new comment
 	@DataProvider
 	public Object[][] getData() {
 		return new Object[][] {{"thakorgopu725@gmail.com","Thakor1!","ZARA COAT 3"},{"thakorgopu726@gmail.com","Thakor1!","ADIDAS ORIGINAL"}};
